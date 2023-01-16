@@ -1,5 +1,5 @@
-import e from "express";
-import User from "../models/User";
+import express from "express";
+import User from "../models/User.js";
 
 /* Read */
 export const getUser = async (req, res) => {
